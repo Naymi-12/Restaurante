@@ -32,7 +32,7 @@ body {
 .navright a {
     text-decoration: none;
     color: #000000;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
 }
 
@@ -49,12 +49,9 @@ body {
 
 .logo {
     position: absolute;
-
     left: 50%;
     top: 3px;
-
     transform: translateX(-50%);
-
     z-index: 10;
 }
 
@@ -101,7 +98,7 @@ body {
 
 .tarjeta-sopa {
     width: 100%; 
-    background-color: #F5E3B5;
+    background-color: #DED5BF;
     border-radius: 4px;
     padding: 60px 30px 60px 260px;  
     min-height: 320px;
@@ -272,6 +269,12 @@ body {
     align-items: center;
     justify-content: center;
     gap: 10px;
+}
+
+.img-whatsapp {
+    width: 32px;        
+    height: 32px;      
+    display: block;
 }
 
 .caja-telefonos {
