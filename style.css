@@ -1,13 +1,15 @@
 body {
-	margin: 0;
-	padding: 0;
-	font-family: Helvetica, Arial, sans-serif;
-	color: #666;
-	background: #f2f2f2; 
-	font-size: 1em;
-	line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    background-image: linear-gradient(rgba(242, 242, 242, 0.7), rgba(242, 242, 242, 0.7)),url('textura.jpg'); 
+    background-size: cover;                  
+    background-position: center;             
+    background-repeat: no-repeat;           
+    background-attachment: fixed;      
 }
-
 .navbar {
     width: 100%;
 	height: 60px;
@@ -99,7 +101,7 @@ body {
 
 .tarjeta-sopa {
     width: 100%; 
-    background-color: #e8e2d4;
+    background-color: #F5E3B5;
     border-radius: 4px;
     padding: 60px 30px 60px 260px;  
     min-height: 320px;
@@ -195,7 +197,7 @@ body {
 
 
 .caja-rosada {
-    background-color: #f7e3e3;
+    background-color: #FAE0E0;
     color: #1a1a1a;
 }
 
@@ -221,4 +223,72 @@ body {
     max-width: 160px;
     height: auto;
     display: block;
+}
+
+.seccion-domicilio {
+    width: 100%;
+    background-color: #5c3d2e; 
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+.contenedor-domicilio {
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; 
+}
+
+.caja-banner-domicilio {
+    background-color: #3b180d;
+    padding: 12px 25px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 420px;
+    box-sizing: border-box;
+}
+
+.img-domicilio {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.whatsapp {
+    background-color: #f4b400;
+    color: #064E0F; 
+    font-weight: 900;
+    font-size: 1.4rem;
+    padding: 0.5px 30px;
+    border-radius: 50px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.caja-telefonos {
+    background-color: #f4b400;
+    color: #000000;
+    padding: 15px 30px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.caja-telefonos p {
+    margin: 4px 0;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
