@@ -87,13 +87,14 @@ body {
     filter: drop-shadow(0px 0px 25px rgba(255, 255, 255, 0.9));
 }
 
-.seccion-menu {
+.seccion-sopa {
     padding: 0 20px 60px 20px; 
     display: flex;
     justify-content: center;
     margin-top: -80px; 
     position: relative; 
     z-index: 5; 
+
 }
 
 .tarjeta-sopa {
@@ -105,7 +106,6 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
     position: relative;
 }
 
@@ -152,4 +152,63 @@ body {
     font-size: 0.95rem;
     line-height: 1.5;
     margin: 0;
+}
+
+.tarjeta-menu {
+    width: 100%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-radius: 4px;
+    overflow: hidden;
+
+}
+
+
+.caja-rosada,
+.caja-cafe {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    min-height: 220px;
+}
+
+
+.caja-rosada {
+    background-color: #f7e3e3;
+    color: #1a1a1a;
+}
+
+.caja-cafe {
+    background-color: #3b180d;
+}
+
+
+.caja-rosada h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.caja-rosada p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.caja-cafe img {
+    width: 80%;
+    max-width: 160px;
+    height: auto;
+    display: block;
 }
